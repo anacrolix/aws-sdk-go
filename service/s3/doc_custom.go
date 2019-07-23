@@ -26,7 +26,7 @@
 //   if err != nil {
 //       return fmt.Errorf("failed to upload file, %v", err)
 //   }
-//   fmt.Printf("file uploaded to, %s\n", aws.StringValue(result.Location))
+//   fmt.Printf("file uploaded to, %s\n", result.Location)
 //
 // See the s3manager package's Uploader type documentation for more information.
 // https://docs.aws.amazon.com/sdk-for-go/api/service/s3/s3manager/#Uploader
